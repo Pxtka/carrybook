@@ -1,0 +1,90 @@
+<!doctype html><html lang="fi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tietosuojaseloste – Carrybook</title><link rel="icon" href="favicon.png"><style>
+:root{--bg:#f6f7f4;--card:#fff;--text:#16181a;--muted:#5f6670;--line:#e3e6e0;--accent:#1E8E3E;--accent-soft:#1E8E3E14}
+@media (prefers-color-scheme:dark){:root{--bg:#121413;--card:#1b1e1c;--text:#eceeea;--muted:#a3aaa3;--line:#2c312d;--accent:#3cc46b;--accent-soft:#3cc46b1f}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{max-width:760px;margin:0 auto;padding:20px 16px 8px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+header a.brand{display:flex;align-items:center;gap:10px;color:var(--text);text-decoration:none;font-weight:700;font-size:20px}
+header img{width:36px;height:36px;border-radius:9px}
+nav{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;padding:6px 10px;border-radius:8px;font-size:15px}
+nav a.on{color:var(--accent);background:var(--accent-soft);font-weight:600}
+nav a.lang{border:1px solid var(--line)}
+main{max-width:760px;margin:0 auto 40px;padding:28px 24px;background:var(--card);border-radius:16px;border:1px solid var(--line)}
+@media (max-width:600px){main{margin:0 8px 32px;padding:20px 16px}.draft{margin:0 8px 12px}}
+h1{font-size:28px;line-height:1.2;margin:0 0 4px}h2{font-size:19px;margin:28px 0 6px}
+p,li{color:var(--text)}em{color:var(--muted);font-style:normal;font-size:14px}
+a{color:var(--accent)}strong{font-weight:650}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0;display:block;overflow-x:auto}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600}
+.draft{max-width:760px;margin:0 auto 12px;padding:10px 14px;border-radius:10px;background:#c9971c22;color:var(--text);font-size:14px}
+footer{max-width:760px;margin:0 auto 32px;padding:0 16px;color:var(--muted);font-size:13px}
+.links{display:grid;gap:10px;margin-top:20px}
+.links a{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--text)}
+.links a span{display:block;color:var(--muted);font-size:14px}
+</style></head><body>
+<header><a class="brand" href="index.html"><img src="icon.png" alt="">Carrybook</a><nav><a class="on" href="tietosuoja.html">Tietosuoja</a><a class="" href="ehdot.html">Käyttöehdot</a><a class="" href="tuki.html">Tuki</a><a class="lang" href="privacy.html" hreflang="en">English</a></nav></header>
+<div class="draft">Luonnos – testisivu. Hakasulkeissa olevat kohdat täydennetään ennen julkaisua.</div><main><h1>Tietosuojaseloste</h1>
+<p><em>Voimassa 21.10.2026 alkaen</em></p>
+<p><strong>Lyhyesti:</strong> Carrybook tallentaa mailamittasi vain puhelimeesi. Sovelluksessa ei ole käyttäjätilejä, mainoksia, analytiikkaa eikä seurantaa. Sijaintia käytetään vain sään hakemiseen, eikä sitä tallenneta.</p>
+<h2>1. Rekisterinpitäjä</h2>
+<p>[NIMI], [Y-TUNNUS]<br />
+Sähköposti: carrybook.app@icloud.com</p>
+<h2>2. Mitä tietoja käsitellään</h2>
+<p><strong>Puhelimeen tallennettavat tiedot.</strong> Mailasi, mittasi, lyöntisi, tarkemmat tiedot (esim. pallon nopeus ja spin), bägit, pallot ja asetukset tallentuvat vain laitteellesi. Niitä ei lähetetä meille eikä kenellekään muulle. Ne voivat sisältyä puhelimesi omiin varmuuskopioihin (iCloud tai Google), joita hallitset itse.</p>
+<p><strong>Tuodut tiedostot.</strong> Kun tuot mittalaitteen CSV-tiedoston, se luetaan ja käsitellään puhelimessa. Tiedostoa ei lähetetä minnekään.</p>
+<p><strong>Varmuuskopio.</strong> Jos viet varmuuskopion (Asetukset → Vie varmuuskopio), tiedosto tallennetaan sinne, minne itse valitset puhelimen jakovalikosta, esimerkiksi iCloud Driveen tai sähköpostiin. Carrybook ei lähetä tiedostoa minnekään itse. Tiedostossa ei ole Pro-tilauksen tietoja.</p>
+<p><strong>Sijainti (vapaaehtoinen).</strong> Jos sallit sijainnin, sovellus hakee nykyisen sään ja kenttäsi korkeuden sijaintisi perusteella. Sijainti pyöristetään ennen lähettämistä noin kilometrin tarkkuuteen, ja se lähetetään välityspalvelimemme kautta Norjan ilmatieteen laitokselle (MET Norway). Välityspalvelin ei tallenna sijaintia eikä IP-osoitettasi pysyvästi, eikä MET Norway näe IP-osoitettasi. Kompassi käyttää puhelimen anturia, eikä suuntatietoa lähetetä.</p>
+<p><strong>Ostot.</strong> Pro-tilauksen maksun käsittelee Apple (App Store) tai Google (Google Play). Emme näe maksukortti- tai pankkitietojasi. Tilauksen voimassaolon tarkistamiseen käytämme RevenueCat-palvelua, joka saa satunnaisen, nimettömän käyttäjätunnisteen, ostotiedot (tuote, aika, voimassaolo, maa ja valuutta) sekä perustiedot laitteesta ja sovellusversiosta. Tunnistetta ei yhdistetä nimeesi eikä sähköpostiisi.</p>
+<p><strong>Yhteydenotot.</strong> Jos lähetät meille sähköpostia, käytämme viestiäsi ja sähköpostiosoitettasi vain asiasi hoitamiseen.</p>
+<h2>3. Käsittelyn tarkoitus ja peruste</h2>
+<table>
+<thead>
+<tr>
+<th>Tieto</th>
+<th>Tarkoitus</th>
+<th>Oikeusperuste (GDPR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pyöristetty sijainti</td>
+<td>Sään ja korkeuden haku</td>
+<td>Suostumus (sijaintilupa), jonka voit perua puhelimen asetuksista</td>
+</tr>
+<tr>
+<td>Ostotiedot ja nimetön tunniste</td>
+<td>Pro-tilauksen toimittaminen</td>
+<td>Sopimus</td>
+</tr>
+<tr>
+<td>Tekniset tiedot välityspalvelimella</td>
+<td>Palvelun toimivuus ja väärinkäytösten esto</td>
+<td>Oikeutettu etu</td>
+</tr>
+<tr>
+<td>Yhteydenotot</td>
+<td>Tuki</td>
+<td>Oikeutettu etu</td>
+</tr>
+</tbody>
+</table>
+<h2>4. Vastaanottajat ja siirrot</h2>
+<ul>
+<li><strong>Apple ja Google</strong> käsittelevät ostot omien tietosuojakäytäntöjensä mukaisesti.</li>
+<li><strong>RevenueCat, Inc.</strong> (Yhdysvallat) käsittelee ostotietoja puolestamme.</li>
+<li><strong>Cloudflare, Inc.</strong> (Yhdysvallat) ylläpitää välityspalvelinta.</li>
+<li><strong>MET Norway</strong> (Norja, ETA-alue) saa pyöristetyn sijainnin säätietoa varten.</li>
+</ul>
+<p>Siirrot Yhdysvaltoihin perustuvat EU:n ja Yhdysvaltojen tietosuojakehykseen tai EU:n vakiosopimuslausekkeisiin. Emme myy tietoja emmekä luovuta niitä markkinointiin.</p>
+<h2>5. Säilytys</h2>
+<p>Puhelimeen tallennetut tiedot säilyvät, kunnes poistat ne sovelluksesta (Asetukset → Nollaa kaikki tiedot) tai poistat sovelluksen. Sijaintia ei säilytetä. Ostotietoja säilytetään niin kauan kuin kirjanpito- ja kuluttajansuojalaki edellyttävät. Sähköpostit poistetaan, kun asia on hoidettu eikä niitä enää tarvita.</p>
+<h2>6. Oikeutesi</h2>
+<p>Sinulla on oikeus saada tietoa käsittelystä, tarkastaa ja oikaista tietosi, pyytää niiden poistamista, rajoittaa tai vastustaa käsittelyä sekä siirtää tietosi järjestelmästä toiseen. Koska mitat ovat vain puhelimessasi, voit hallita niitä itse sovelluksessa. Ostotietoja koskevissa pyynnöissä ota yhteyttä osoitteeseen carrybook.app@icloud.com ja kerro Tuki-ID, joka löytyy sovelluksesta kohdasta Asetukset → Tietoja.</p>
+<p>Voit tehdä valituksen tietosuojavaltuutetun toimistolle (<a href="https://tietosuoja.fi">tietosuoja.fi</a>), jos katsot, että tietojasi käsitellään lainvastaisesti.</p>
+<h2>7. Lapset</h2>
+<p>Sovellusta ei ole suunnattu alle 13-vuotiaille, emmekä tietoisesti käsittele heidän tietojaan.</p>
+<h2>8. Muutokset</h2>
+<p>Päivitämme selostetta, jos sovelluksen tietojenkäsittely muuttuu. Merkittävistä muutoksista kerromme sovelluksessa tai sen päivityskuvauksessa.</p></main><footer>© Carrybook · Säätiedot: MET Norway (CC BY 4.0)</footer></body></html>
