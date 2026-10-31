@@ -21,9 +21,16 @@ th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);verti
 th{color:var(--muted);font-weight:600}
 .draft{max-width:760px;margin:0 auto 12px;padding:10px 14px;border-radius:10px;background:#c9971c22;color:var(--text);font-size:14px}
 footer{max-width:760px;margin:0 auto 32px;padding:0 16px;color:var(--muted);font-size:13px}
+.avail{display:inline-block;margin:4px 0 0;padding:6px 12px;border-radius:999px;background:var(--accent-soft);color:var(--text);font-size:14px}
+.avail b{color:var(--accent)}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;margin:12px 0 8px;align-items:start}
+.cards figure:first-child{grid-row:span 2}
+@media (max-width:600px){.cards{grid-template-columns:1fr}.cards figure:first-child{grid-row:auto}}
+.cards figure{margin:0}.cards img{width:100%;height:auto;display:block}
+.cards figcaption{font-size:14px;color:var(--muted);margin-top:2px;padding:0 6px}.cards figcaption b{color:var(--text);display:block}
 .links{display:grid;gap:10px;margin-top:20px}
 .links a{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--text)}
 .links a span{display:block;color:var(--muted);font-size:14px}
 </style></head><body>
 <header><a class="brand" href="index-fi.html"><img src="icon.png" alt="">Carrybook</a><nav><a class="" href="tietosuoja.html">Tietosuoja</a><a class="" href="ehdot.html">Käyttöehdot</a><a class="" href="tuki.html">Tuki</a><a class="lang" href="index.html" hreflang="en">English</a></nav></header>
-<main><h1>Carrybook</h1><p>Omat mailamittasi taskussa – osaswingit, olosuhteet ja mailan valinta.</p><div class="links"><a href="tietosuoja.html">Tietosuojaseloste<span>Mitä tietoja käsitellään ja miten</span></a><a href="ehdot.html">Käyttöehdot<span>Pro-tilaus ja vastuut</span></a><a href="tuki.html">Tuki<span>Yhteystiedot ja usein kysyttyä</span></a></div></main><footer>© Carrybook · Säätiedot: MET Norway (CC BY 4.0)</footer></body></html>
+<main><h1>Carrybook</h1><p>Omat mailamittasi taskussa – osaswingit, olosuhteet ja mailan valinta.</p><p class="avail"><b>iPhone</b> · Android-versio tulossa myöhemmin</p><h2>Tulosta oma mittakortti</h2><p>Kaksi korttia A4- tai Letter-arkille, leikkaa ja laita takataskuun.</p><div class="cards"><figure><a href="card-bag.png"><img src="card-bag.png" alt="Koko bägi" loading="lazy"></a><figcaption><b>Koko bägi</b>Carry isolla, total ja vaihteluväli alla, osaswingit omissa sarakkeissa.</figcaption></figure><figure><a href="card-wedge.png"><img src="card-wedge.png" alt="Wedge-kortti" loading="lazy"></a><figcaption><b>Wedge-kortti</b>Omat swing-nimet (esim. 9:00, 9:30, 10:00) ja isot numerot.</figcaption></figure><figure><a href="card-cold.png"><img src="card-cold.png" alt="Lämpötila ja korkeus" loading="lazy"></a><figcaption><b>Lämpötila ja korkeus</b>Matkat lasketaan valmiiksi päivän lämpötilaan ja kentän korkeuteen.</figcaption></figure></div><div class="links"><a href="tietosuoja.html">Tietosuojaseloste<span>Mitä tietoja käsitellään ja miten</span></a><a href="ehdot.html">Käyttöehdot<span>Pro-tilaus ja vastuut</span></a><a href="tuki.html">Tuki<span>Yhteystiedot ja usein kysyttyä</span></a></div></main><footer>© Carrybook · Säätiedot: MET Norway (CC BY 4.0)</footer></body></html>

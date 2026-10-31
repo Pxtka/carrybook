@@ -21,6 +21,13 @@ th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);verti
 th{color:var(--muted);font-weight:600}
 .draft{max-width:760px;margin:0 auto 12px;padding:10px 14px;border-radius:10px;background:#c9971c22;color:var(--text);font-size:14px}
 footer{max-width:760px;margin:0 auto 32px;padding:0 16px;color:var(--muted);font-size:13px}
+.avail{display:inline-block;margin:4px 0 0;padding:6px 12px;border-radius:999px;background:var(--accent-soft);color:var(--text);font-size:14px}
+.avail b{color:var(--accent)}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;margin:12px 0 8px;align-items:start}
+.cards figure:first-child{grid-row:span 2}
+@media (max-width:600px){.cards{grid-template-columns:1fr}.cards figure:first-child{grid-row:auto}}
+.cards figure{margin:0}.cards img{width:100%;height:auto;display:block}
+.cards figcaption{font-size:14px;color:var(--muted);margin-top:2px;padding:0 6px}.cards figcaption b{color:var(--text);display:block}
 .links{display:grid;gap:10px;margin-top:20px}
 .links a{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--text)}
 .links a span{display:block;color:var(--muted);font-size:14px}
@@ -31,6 +38,8 @@ footer{max-width:760px;margin:0 auto 32px;padding:0 16px;color:var(--muted);font
 <h2>Frequently asked questions</h2>
 <p><strong>Pro is not showing on my new phone?</strong><br />
 Open Settings and choose Restore purchases. Use the same Apple ID or Google account you purchased with.</p>
+<p><strong>Is there an Android version?</strong><br />
+Not yet. Carrybook is available for iPhone now, and an Android version is coming later. Email carrybook.app@icloud.com if you'd like to hear when it's out.</p>
 <p><strong>How do I cancel my subscription?</strong><br />
 iPhone: Settings → your name → Subscriptions. Android: Google Play → profile → Payments &amp; subscriptions.</p>
 <p><strong>Where are my distances stored?</strong><br />
